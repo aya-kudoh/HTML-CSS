@@ -77,12 +77,13 @@ body {
     padding: auto;
     padding-top: 20px;
     clear: both;
+   display: grid;
+   grid-template-columns: 70vw 30vw;
 }
 
 /*-------------main---------------------*/
 #main {
-    float: left;
-    width: 60%;
+    width: 95%;
     padding: 10px 30px 10px 10px;
 }
 
@@ -137,8 +138,7 @@ body {
 
 /*---------------side-------------------*/
 #side {
-    float: right;
-    width: 30%;
+    width: 85%;
     padding: 20px;
     background-color: #F99;
 }
